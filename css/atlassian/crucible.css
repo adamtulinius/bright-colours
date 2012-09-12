@@ -16,8 +16,7 @@ li.frx-list-item span.frx-changed a {
 }
 
 li.frx-list-item span.frx-changed a:before {
-	content: "\0394   ";
-	font-size: 0.8em;
+	content: "\0394  ";
 	font-weight: normal;
 	color: #666;
 }
