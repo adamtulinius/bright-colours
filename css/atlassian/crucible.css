@@ -1,20 +1,21 @@
 /* reviews: use a brighter green for new files, and prefix with + */
-span.tree.frx.file.filetype-java.frx-operation.frx-added a {
+li.frx-list-item span.frx-added a {
 	color: green !important;
 }
 
-span.tree.frx.file.filetype-java.frx-operation.frx-added a:before {
+/*span.tree.frx.file.filetype-java.frx-operation.frx-added a:before {*/
+li.frx-list-item span.frx-added a:before {
 	content: "+ ";
 	font-weight: normal;
 	color: #666;
 }
 
 /* reviews: use a brighter blue for changed files, and prefix with Δ */
-span.tree.frx.file.filetype-java.frx-operation.frx-changed a {
+li.frx-list-item span.frx-changed a {
 	color: blue !important;
 }
 
-span.tree.frx.file.filetype-java.frx-operation.frx-changed a:before {
+li.frx-list-item span.frx-changed a:before {
 	content: "\0394   ";
 	font-size: 0.8em;
 	font-weight: normal;
@@ -22,11 +23,11 @@ span.tree.frx.file.filetype-java.frx-operation.frx-changed a:before {
 }
 
 /* reviews: use a darker red for deleted files, and prefix with - */
-span.tree.frx.file.filetype-java.frx-operation.frx-deleted a {
+li.frx-list-item span.frx-deleted a {
 	color: darkred !important;
 }
 
-span.tree.frx.file.filetype-java.frx-operation.frx-deleted a:before {
+li.frx-list-item span.frx-deleted a:before {
 	content: "- ";
 	font-weight: normal;
 	color: #666;
